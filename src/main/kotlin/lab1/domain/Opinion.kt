@@ -1,4 +1,4 @@
-package domain
+package lab1.domain
 
 enum class Opinion {
     FAIL,

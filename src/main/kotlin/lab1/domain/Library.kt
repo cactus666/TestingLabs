@@ -1,5 +1,4 @@
-package domain
-
+package lab1.domain
 
 /*
 все книги уникальны нет повторяющихся названий

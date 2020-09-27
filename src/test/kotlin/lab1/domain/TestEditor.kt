@@ -1,5 +1,6 @@
-package domain
+package lab1.domain
 
+import domain.*
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test

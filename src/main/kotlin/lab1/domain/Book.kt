@@ -1,4 +1,4 @@
-package domain
+package lab1.domain
 
 data class Book(
     val name: String,

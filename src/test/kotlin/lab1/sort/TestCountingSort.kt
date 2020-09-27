@@ -1,13 +1,13 @@
-package sort
+package lab1.sort
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-import sort.CountingSort.addOccurrence
-import sort.CountingSort.createSortingPlace
-import sort.CountingSort.findTargetPosition
-import sort.CountingSort.summarizeOccurrence
+import lab1.sort.CountingSort.addOccurrence
+import lab1.sort.CountingSort.createSortingPlace
+import lab1.sort.CountingSort.findTargetPosition
+import lab1.sort.CountingSort.summarizeOccurrence
 
 class TestCountingSort {
 

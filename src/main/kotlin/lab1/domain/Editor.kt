@@ -1,19 +1,10 @@
-package domain
+package lab1.domain
 
 import java.util.ArrayList
 
 class Editor {
-
     var head: Head? = null
-
     val library: Library
-//    var lifeStatus: LifeStatus = LifeStatus.ALIVE_WITHOUT_ILL
-//    set(value) {
-//        field = value
-//        when (value) {
-//            LifeStatus.DEAD -> head?.isBrainDied = true
-//        }
-//    }
     val illNow: ArrayList<Ill> = arrayListOf()
     val listBook: ArrayList<Pair<Book, Opinion?>> = arrayListOf()
 
@@ -40,23 +31,11 @@ class Editor {
 
     fun addIll(ill: Ill) {
         illNow.add(ill)
-//        lifeStatus = LifeStatus.ALIVE_WITH_ILL
         if (ill == Ill.BLINDNESS) {
             head?.leftEye?.isBlind = true
             head?.rightEye?.isBlind = true
         }
     }
-
-//    fun recover(ill: Ill) {
-//        illNow.remove(ill)
-//        if (illNow.isEmpty()) {
-//            lifeStatus = LifeStatus.ALIVE_WITHOUT_ILL
-//        }
-//        if (ill == Ill.BLINDNESS) {
-//            head?.leftEye?.isBlind = false
-//            head?.rightEye?.isBlind = false
-//        }
-//    }
 
     fun readBook(book: Book) : Boolean {
         return if (canDiscoverIdeaBook() && library.hasConcretBookInLibrary(book)) {

@@ -1,6 +1,4 @@
-package sort
-
-import java.lang.Double.NaN
+package lab1.sort
 
 object CountingSort {
 
