@@ -10,7 +10,7 @@ class TestEditor {
 
     @BeforeEach
     internal fun setupData() {
-        editor = Editor("Author")
+        editor = Editor()
     }
 
     @Test
