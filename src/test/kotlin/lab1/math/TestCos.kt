@@ -1,8 +1,8 @@
 package lab1.math
 
-import org.junit.Test
-import org.junit.jupiter.api.Assertions.assertEquals
 import kotlin.math.PI
+import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Test
 
 class TestCos {
 
